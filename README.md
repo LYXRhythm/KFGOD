@@ -1,6 +1,7 @@
 # KFGOD
+A Kernelized Fuzzy Approximation Fusion Model with Granular-ball Computing for Outlier Detection (Information Fusion, PyTorch Code)
 
-Yongxiang Li, Xinyu Su, **Zhong Yuan***, Run Ye, Dezhong Peng, and Hongmei Chen, A Kernelized Fuzzy Approximation Fusion Model with Granular-ball Computing for Outlier Detection, Information Fusion, 2026, 127: 103716.
+Authors: Yongxiang Li, Xinyu Su, Zhong Yuan, Run Ye, Dezhong Peng, and Hongmei Chen
 
 ## Abstract
 Outlier detection is a fundamental task in data analytics, where fuzzy rough set-based methods have gained increasing attention for their ability to effectively model uncertainty associated with outliers in data. However, existing FRS-based methods often exhibit limitations when applied to complex scenarios. Most of these methods rely on single-granularity fusion, where all samples are processed at a uniform, fine-grained level. This restricts their ability to fuse multi-granularity information, limiting outlier discrimination and making them more susceptible to noise. Moreover, many traditional methods construct fuzzy relation matrices under linear assumptions, which fail to effectively represent the intricate, nonlinear relations commonly found in real-world data. This leads to suboptimal estimation of membership degrees and degrades the reliability of outlier detection. To address these challenges, we propose a Kernelized Fuzzy approximation fusion model with Granular-ball computing for Outlier Detection (KFGOD), which integrates multi-granularity granular-balls and kernelized fuzzy rough sets into a unified framework. KFGOD fuses multi-granularity information to capture abnormal information at different granularity levels. Simultaneously, kernel functions are employed to effectively model multi-granularity nonlinear relations, enhancing the expressive power of fuzzy relation construction. By performing information fusion across multiple kernelized fuzzy information granules associated with each granular-ball, KFGOD evaluates the outlier degrees of each ball and propagates this fused abnormality information to the corresponding samples. This hierarchical and kernelized method allows for effective outlier detection in unlabeled datasets. Extensive experiments conducted on twenty benchmark datasets confirm the effectiveness of KFGOD, which consistently outperforms several state-of-the-art baselines in terms of detection accuracy and robustness.
@@ -92,5 +93,3 @@ If you find KFGOD useful in your research, please consider citing:
   pages = {103716}
 }
 ```
-## Contact
-If you have any questions, please contact rhythmli.scu@gmail.com or yuanzhong@scu.edu.cn.
