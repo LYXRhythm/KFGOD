@@ -1,5 +1,5 @@
 # KFGOD
-A Kernelized Fuzzy Approximation Fusion Model with Granular-ball Computing for Outlier Detection (Information Fusion, PyTorch Code)
+A Kernelized Fuzzy Approximation Fusion Model with Granular-ball Computing for Outlier Detection (Information Fusion, Python Code)
 
 Authors: Yongxiang Li, Xinyu Su, Zhong Yuan, Run Ye, Dezhong Peng, and Hongmei Chen
 
